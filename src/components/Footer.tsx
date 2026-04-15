@@ -45,9 +45,9 @@ const Footer = () => {
                 <MapPin size={16} className="mt-0.5 shrink-0" />
                 Ave. Lindavista 215L7, Lindavista, 67123 Guadalupe, N.L.
               </p>
-              <a href="https://wa.me/528122084118" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <MessageCircle size={16} className="shrink-0" />
-                81 2208 4118
+                Reserva en línea
               </a>
               <p className="flex items-center gap-2">
                 <Clock size={16} className="shrink-0" />
@@ -64,9 +64,9 @@ const Footer = () => {
                 <MapPin size={16} className="mt-0.5 shrink-0" />
                 P.º de las Américas 2538, Contry La Silla, 67173 Guadalupe, N.L.
               </p>
-              <a href="https://wa.me/528120348679" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <MessageCircle size={16} className="shrink-0" />
-                81 2034 8679
+                Reserva en línea
               </a>
               <p className="flex items-center gap-2">
                 <Clock size={16} className="shrink-0" />

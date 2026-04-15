@@ -15,7 +15,7 @@ const Contacto = () => {
   useEffect(() => {
     document.title = "AURIA Wellness Center | Contacto | Pilates Reformer en Guadalupe, N.L.";
     const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", "Contacta a AURIA Wellness Center en Guadalupe, N.L. Dos sucursales: Linda Vista y Contry La Silla. Agenda tu clase de Pilates por WhatsApp. ¡Te esperamos!");
+    if (meta) meta.setAttribute("content", "Contacta a AURIA Wellness Center en Guadalupe, N.L. Dos sucursales: Linda Vista y Contry La Silla. Reserva tu clase de Pilates en línea. ¡Te esperamos!");
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
