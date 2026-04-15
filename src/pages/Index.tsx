@@ -20,11 +20,11 @@ const Index = () => {
         <div className="absolute inset-0 gradient-hero-flash pointer-events-none" />
         
         {/* Hero Sparkles */}
-        <Sparkle size={60} color="rgba(255,255,255,0.15)" className="absolute top-28 left-[10%] animate-pulse" />
-        <Sparkle size={35} color="rgba(255,255,255,0.12)" className="absolute top-40 right-[15%] animate-pulse [animation-delay:1s]" />
-        <Sparkle size={24} color="rgba(244,168,150,0.25)" className="absolute bottom-32 left-[20%] animate-pulse [animation-delay:0.5s]" />
-        <Sparkle size={45} color="rgba(195,166,216,0.2)" className="absolute bottom-40 right-[8%] animate-pulse [animation-delay:1.5s]" />
-        <Sparkle size={18} color="rgba(255,255,255,0.1)" className="absolute top-[60%] left-[5%] animate-pulse [animation-delay:2s]" />
+        <Sparkle size={90} color="rgba(255,255,255,0.35)" className="absolute top-28 left-[10%] animate-pulse" />
+        <Sparkle size={55} color="rgba(255,255,255,0.3)" className="absolute top-40 right-[15%] animate-pulse [animation-delay:1s]" />
+        <Sparkle size={40} color="rgba(244,168,150,0.5)" className="absolute bottom-32 left-[20%] animate-pulse [animation-delay:0.5s]" />
+        <Sparkle size={70} color="rgba(195,166,216,0.45)" className="absolute bottom-40 right-[8%] animate-pulse [animation-delay:1.5s]" />
+        <Sparkle size={30} color="rgba(255,255,255,0.25)" className="absolute top-[60%] left-[5%] animate-pulse [animation-delay:2s]" />
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-20">
           <div className="max-w-3xl mx-auto text-center">
@@ -61,8 +61,8 @@ const Index = () => {
 
       {/* Intro */}
       <section className="relative py-20 lg:py-28 bg-background overflow-hidden">
-        <Sparkle size={50} color="hsla(280, 40%, 78%, 0.15)" className="absolute top-12 right-[10%] animate-pulse [animation-delay:0.3s]" />
-        <Sparkle size={28} color="hsla(12, 85%, 72%, 0.12)" className="absolute bottom-16 left-[8%] animate-pulse [animation-delay:1.2s]" />
+        <Sparkle size={75} color="hsla(280, 50%, 75%, 0.35)" className="absolute top-12 right-[10%] animate-pulse [animation-delay:0.3s]" />
+        <Sparkle size={45} color="hsla(12, 85%, 72%, 0.3)" className="absolute bottom-16 left-[8%] animate-pulse [animation-delay:1.2s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <div className="max-w-3xl mx-auto text-center">
@@ -81,8 +81,8 @@ const Index = () => {
 
       {/* Clases Preview */}
       <section id="clases" className="relative py-20 lg:py-28 gradient-soft overflow-hidden">
-        <Sparkle size={40} color="hsla(280, 40%, 78%, 0.18)" className="absolute top-20 left-[5%] animate-pulse [animation-delay:0.7s]" />
-        <Sparkle size={55} color="hsla(175, 45%, 63%, 0.12)" className="absolute bottom-24 right-[6%] animate-pulse [animation-delay:1.8s]" />
+        <Sparkle size={65} color="hsla(280, 50%, 75%, 0.4)" className="absolute top-20 left-[5%] animate-pulse [animation-delay:0.7s]" />
+        <Sparkle size={80} color="hsla(175, 50%, 60%, 0.3)" className="absolute bottom-24 right-[6%] animate-pulse [animation-delay:1.8s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-foreground mb-14">
@@ -130,8 +130,8 @@ const Index = () => {
 
       {/* Por qué AURIA */}
       <section className="relative py-20 lg:py-28 bg-background overflow-hidden">
-        <Sparkle size={32} color="hsla(280, 40%, 78%, 0.13)" className="absolute top-16 right-[12%] animate-pulse [animation-delay:0.4s]" />
-        <Sparkle size={22} color="hsla(340, 60%, 80%, 0.15)" className="absolute bottom-20 left-[15%] animate-pulse [animation-delay:2.2s]" />
+        <Sparkle size={55} color="hsla(280, 50%, 75%, 0.35)" className="absolute top-16 right-[12%] animate-pulse [animation-delay:0.4s]" />
+        <Sparkle size={40} color="hsla(340, 65%, 75%, 0.35)" className="absolute bottom-20 left-[15%] animate-pulse [animation-delay:2.2s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-foreground mb-14">
@@ -163,8 +163,8 @@ const Index = () => {
 
       {/* Testimonios */}
       <section className="relative py-20 lg:py-28 gradient-soft overflow-hidden">
-        <Sparkle size={45} color="hsla(48, 90%, 65%, 0.15)" className="absolute top-14 left-[8%] animate-pulse [animation-delay:0.6s]" />
-        <Sparkle size={30} color="hsla(280, 40%, 78%, 0.12)" className="absolute bottom-20 right-[10%] animate-pulse [animation-delay:1.4s]" />
+        <Sparkle size={70} color="hsla(48, 90%, 65%, 0.35)" className="absolute top-14 left-[8%] animate-pulse [animation-delay:0.6s]" />
+        <Sparkle size={50} color="hsla(280, 50%, 75%, 0.3)" className="absolute bottom-20 right-[10%] animate-pulse [animation-delay:1.4s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <div className="max-w-2xl mx-auto text-center">
@@ -191,8 +191,8 @@ const Index = () => {
 
       {/* Ubicaciones */}
       <section className="relative py-20 lg:py-28 bg-background overflow-hidden">
-        <Sparkle size={38} color="hsla(175, 45%, 63%, 0.14)" className="absolute top-10 left-[12%] animate-pulse [animation-delay:0.9s]" />
-        <Sparkle size={26} color="hsla(12, 85%, 72%, 0.12)" className="absolute bottom-14 right-[14%] animate-pulse [animation-delay:1.7s]" />
+        <Sparkle size={60} color="hsla(175, 50%, 60%, 0.35)" className="absolute top-10 left-[12%] animate-pulse [animation-delay:0.9s]" />
+        <Sparkle size={45} color="hsla(12, 85%, 68%, 0.3)" className="absolute bottom-14 right-[14%] animate-pulse [animation-delay:1.7s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-foreground mb-14">
@@ -241,9 +241,9 @@ const Index = () => {
 
       {/* Instagram */}
       <section className="relative py-20 lg:py-28 gradient-teal overflow-hidden">
-        <Sparkle size={50} color="rgba(255,255,255,0.12)" className="absolute top-16 right-[8%] animate-pulse [animation-delay:0.5s]" />
-        <Sparkle size={30} color="rgba(255,255,255,0.08)" className="absolute bottom-20 left-[10%] animate-pulse [animation-delay:1.3s]" />
-        <Sparkle size={20} color="rgba(255,255,255,0.1)" className="absolute top-[50%] left-[3%] animate-pulse [animation-delay:2s]" />
+        <Sparkle size={75} color="rgba(255,255,255,0.3)" className="absolute top-16 right-[8%] animate-pulse [animation-delay:0.5s]" />
+        <Sparkle size={50} color="rgba(255,255,255,0.2)" className="absolute bottom-20 left-[10%] animate-pulse [animation-delay:1.3s]" />
+        <Sparkle size={35} color="rgba(255,255,255,0.25)" className="absolute top-[50%] left-[3%] animate-pulse [animation-delay:2s]" />
         <div className="container mx-auto px-4 lg:px-8">
           <ScrollReveal>
             <div className="max-w-2xl mx-auto text-center">
