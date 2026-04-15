@@ -6,25 +6,11 @@ interface MagazineCutoutProps {
 }
 
 const MagazineCutout = ({ src, alt, className = "", rotation = 0 }: MagazineCutoutProps) => {
-  // Multiple white drop-shadows to create a thick outline that follows the shape
+  // Use a single layered drop-shadow for performance instead of 17 stacked ones
   const outlineFilter = [
-    "drop-shadow(0 0 0px white)",
-    "drop-shadow(1px 0 0px white)",
-    "drop-shadow(-1px 0 0px white)",
-    "drop-shadow(0 1px 0px white)",
-    "drop-shadow(0 -1px 0px white)",
-    "drop-shadow(2px 0 0px white)",
-    "drop-shadow(-2px 0 0px white)",
-    "drop-shadow(0 2px 0px white)",
-    "drop-shadow(0 -2px 0px white)",
-    "drop-shadow(3px 0 0px white)",
-    "drop-shadow(-3px 0 0px white)",
-    "drop-shadow(0 3px 0px white)",
-    "drop-shadow(0 -3px 0px white)",
-    "drop-shadow(2px 2px 0px white)",
-    "drop-shadow(-2px 2px 0px white)",
-    "drop-shadow(2px -2px 0px white)",
-    "drop-shadow(-2px -2px 0px white)",
+    "drop-shadow(0 0 2px white)",
+    "drop-shadow(0 0 3px white)",
+    "drop-shadow(0 0 4px white)",
   ].join(" ");
 
   return (
