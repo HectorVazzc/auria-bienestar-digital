@@ -15,39 +15,39 @@
     --popover: 0 0% 100%;
     --popover-foreground: 280 28% 24%;
 
-    --primary: 275 35% 75%;
+    --primary: 310 60% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 10 70% 85%;
-    --secondary-foreground: 280 28% 24%;
+    --secondary: 340 70% 82%;
+    --secondary-foreground: 310 40% 20%;
 
-    --muted: 30 30% 94%;
-    --muted-foreground: 280 15% 45%;
+    --muted: 330 30% 94%;
+    --muted-foreground: 310 15% 45%;
 
-    --accent: 180 40% 63%;
+    --accent: 175 50% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 280 15% 88%;
-    --input: 280 15% 88%;
-    --ring: 275 35% 75%;
+    --border: 310 20% 88%;
+    --input: 310 20% 88%;
+    --ring: 310 60% 65%;
 
     --radius: 0.75rem;
 
-    --auria-lavender: 275 35% 75%;
-    --auria-lavender-light: 280 38% 80%;
-    --auria-blush: 5 70% 85%;
-    --auria-blush-light: 5 65% 89%;
-    --auria-coral: 15 80% 77%;
-    --auria-coral-light: 15 65% 80%;
-    --auria-teal: 180 40% 63%;
-    --auria-teal-light: 180 45% 75%;
-    --auria-cream: 30 50% 97%;
-    --auria-cream-dark: 30 30% 94%;
-    --auria-plum: 280 28% 24%;
-    --auria-plum-light: 285 22% 32%;
+    --auria-lavender: 290 50% 70%;
+    --auria-lavender-light: 295 55% 78%;
+    --auria-blush: 340 75% 80%;
+    --auria-blush-light: 340 65% 88%;
+    --auria-coral: 350 85% 72%;
+    --auria-coral-light: 350 70% 80%;
+    --auria-teal: 175 50% 55%;
+    --auria-teal-light: 175 55% 70%;
+    --auria-cream: 330 40% 97%;
+    --auria-cream-dark: 330 25% 94%;
+    --auria-plum: 310 35% 22%;
+    --auria-plum-light: 310 28% 30%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -83,7 +83,10 @@
     font-family: 'Montserrat', sans-serif;
   }
   .gradient-hero {
-    background: linear-gradient(135deg, hsl(var(--auria-lavender)) 0%, hsl(var(--auria-blush)) 50%, hsl(var(--auria-coral-light)) 100%);
+    background: linear-gradient(135deg, hsl(var(--auria-lavender)) 0%, hsl(var(--auria-blush)) 40%, hsl(var(--auria-coral-light)) 100%);
+  }
+  .gradient-hero-flash {
+    background: radial-gradient(ellipse at 50% 50%, hsl(0 0% 100% / 0.45) 0%, hsl(340 80% 90% / 0.3) 30%, transparent 70%);
   }
   .gradient-soft {
     background: linear-gradient(135deg, hsl(var(--auria-cream)) 0%, hsl(var(--auria-blush-light)) 100%);
