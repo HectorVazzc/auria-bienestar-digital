@@ -16,7 +16,7 @@ const Index = () => {
     <main>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden" aria-label="Sección principal">
-        <div className="absolute inset-0 bg-white/10" />
+        <div className="absolute inset-0 gradient-hero-flash pointer-events-none" />
         <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-20">
           <div className="max-w-3xl mx-auto text-center">
             <ScrollReveal>
