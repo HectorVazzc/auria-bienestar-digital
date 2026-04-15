@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, MapPin, Clock, MessageCircle } from "lucide-react";
+import logoAuria from "@/assets/logo-auria.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div>
-            <span className="text-3xl font-serif font-bold text-white">AURIA</span>
+            <img src={logoAuria} alt="AURIA Pilates Reformer" className="h-16 w-auto brightness-0 invert" />
             <p className="mt-4 text-sm text-white/60 leading-relaxed">
               Wellness Center | Pilates Reformer. Transforma tu cuerpo, equilibra tu mente.
             </p>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoAuria from "@/assets/logo-auria.png";
 
 const navLinks = [
   { to: "/", label: "Inicio" },
@@ -22,7 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center gap-2" aria-label="AURIA - Ir al inicio">
-            <span className="text-2xl lg:text-3xl font-serif font-bold gradient-text">AURIA</span>
+            <img src={logoAuria} alt="AURIA Pilates Reformer" className="h-10 lg:h-14 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
