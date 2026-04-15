@@ -106,7 +106,7 @@ const Index = () => {
         <Sparkle size={80} color="hsla(175, 50%, 60%, 0.3)" className="absolute bottom-24 right-[6%] animate-pulse [animation-delay:1.8s]" />
         
         {/* Clases cutout */}
-        <div className="absolute top-10 right-[2%] pointer-events-none">
+        <div className="absolute -top-2 sm:top-10 right-[2%] pointer-events-none">
           <ScrollReveal delay={400}>
             <MagazineCutout src={cutoutMachine} alt="Cama de Pilates Reformer" className="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56" rotation={5} />
           </ScrollReveal>
@@ -204,9 +204,9 @@ const Index = () => {
         <Sparkle size={50} color="hsla(280, 50%, 75%, 0.3)" className="absolute bottom-20 right-[10%] animate-pulse [animation-delay:1.4s]" />
 
         {/* Testimonios cutout */}
-        <div className="absolute top-8 left-[1%] sm:left-[2%] pointer-events-none">
+        <div className="absolute -top-4 sm:top-8 left-[1%] sm:left-[2%] pointer-events-none">
           <ScrollReveal delay={400}>
-            <MagazineCutout src={cutoutCommunity} alt="Comunidad AURIA" className="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56" rotation={-5} />
+            <MagazineCutout src={cutoutCommunity} alt="Comunidad AURIA" className="w-20 sm:w-32 md:w-40 lg:w-48 xl:w-56" rotation={-5} />
           </ScrollReveal>
         </div>
 
