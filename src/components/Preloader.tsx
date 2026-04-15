@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logoAuria from "@/assets/logo-auria.png";
 
 const Preloader = () => {
   const [isVisible, setIsVisible] = useState(true);
