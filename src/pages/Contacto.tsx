@@ -149,9 +149,9 @@ const Contacto = () => {
                         Lun–Vie: 6:00 AM – 12:00 PM / 4:00 PM – 9:00 PM
                       </p>
                     </div>
-                    <a href={loc.wa} target="_blank" rel="noopener noreferrer">
+                    <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                       <Button className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
-                        Enviar WhatsApp
+                        Reserva ahora
                       </Button>
                     </a>
                   </div>
