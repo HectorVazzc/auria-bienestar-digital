@@ -54,9 +54,9 @@ const Index = () => {
             </ScrollReveal>
             <ScrollReveal delay={400}>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-white text-auria-plum hover:bg-white/90 rounded-full px-8 text-base font-semibold shadow-lg">
-                    Agenda tu clase
+                    Reserva ahora
                   </Button>
                 </a>
                 <a href="#clases">
@@ -128,9 +128,9 @@ const Index = () => {
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Fortalece, alarga y tonifica tu cuerpo con la máquina reformer. Clases guiadas en grupos reducidos para una atención personalizada.
                 </p>
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    Reserva por WhatsApp
+                    Reserva ahora
                   </Button>
                 </a>
               </div>
@@ -144,9 +144,9 @@ const Index = () => {
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Conecta con tu cuerpo a través de ejercicios en tapete que mejoran tu postura, flexibilidad y fuerza desde la base.
                 </p>
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    Reserva por WhatsApp
+                    Reserva ahora
                   </Button>
                 </a>
               </div>
