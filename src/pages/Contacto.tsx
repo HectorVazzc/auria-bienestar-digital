@@ -8,6 +8,8 @@ import ScrollReveal from "@/components/ScrollReveal";
 import SectionDivider from "@/components/SectionDivider";
 import { useToast } from "@/hooks/use-toast";
 
+const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
+
 const Contacto = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({ nombre: "", email: "", telefono: "", sucursal: "", mensaje: "" });
