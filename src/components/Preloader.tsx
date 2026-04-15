@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logoAuria from "@/assets/logo-auria.png";
 
 const Preloader = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -23,9 +24,11 @@ const Preloader = () => {
       aria-label="Cargando AURIA"
     >
       <div className="text-center">
-        <h1 className="text-5xl md:text-7xl font-serif font-bold text-white tracking-widest">
-          AURIA
-        </h1>
+        <img 
+          src={logoAuria} 
+          alt="AURIA" 
+          className="h-20 md:h-28 w-auto mx-auto drop-shadow-lg"
+        />
         <div className="mt-4 w-32 h-0.5 mx-auto shimmer rounded-full" />
       </div>
     </div>
