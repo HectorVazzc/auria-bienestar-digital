@@ -258,7 +258,7 @@ const Index = () => {
                 name: "Suc. Linda Vista",
                 address: "Ave. Lindavista 215L7, Lindavista, Linda Vista, 67123 Guadalupe, N.L., México",
                 phone: "81 2208 4118",
-                wa: WHATSAPP_LV,
+                wa: BOOKING_URL,
               },
               {
                 name: "Suc. Contry La Silla",

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import ScrollReveal from "@/components/ScrollReveal";
 import SectionDivider from "@/components/SectionDivider";
 
-const WHATSAPP_LV = "https://wa.me/528122084118?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
+const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
 const WHATSAPP_CS = "https://wa.me/528120348679?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
 
 const Clases = () => {
@@ -61,9 +61,9 @@ const Clases = () => {
               ))}
             </div>
             <ScrollReveal>
-              <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 font-semibold">
-                  Reserva tu primera clase
+                  Reserva ahora
                 </Button>
               </a>
             </ScrollReveal>
@@ -104,9 +104,9 @@ const Clases = () => {
               ))}
             </div>
             <ScrollReveal>
-              <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="rounded-full bg-auria-teal hover:bg-auria-teal/90 text-white px-8 font-semibold">
-                  Agenda tu clase por WhatsApp
+                  Reserva ahora
                 </Button>
               </a>
             </ScrollReveal>
@@ -145,9 +145,9 @@ const Clases = () => {
               Tu primera clase te espera. Escríbenos por WhatsApp y agenda tu sesión hoy.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-white text-auria-plum hover:bg-white/90 rounded-full px-8 font-semibold">
-                  Suc. Linda Vista
+                  Reserva ahora
                 </Button>
               </a>
               <a href={WHATSAPP_CS} target="_blank" rel="noopener noreferrer">
