@@ -20,7 +20,7 @@ const Contacto = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "¡Mensaje enviado!", description: "Te contactaremos pronto. También puedes escribirnos por WhatsApp para una respuesta más rápida." });
+    toast({ title: "¡Mensaje enviado!", description: "Te contactaremos pronto. También puedes reservar tu clase en línea para una respuesta más rápida." });
     setFormData({ nombre: "", email: "", telefono: "", sucursal: "", mensaje: "" });
   };
 
@@ -29,14 +29,14 @@ const Contacto = () => {
       name: "Suc. Linda Vista",
       address: "Ave. Lindavista 215L7, Lindavista, Linda Vista, 67123 Guadalupe, N.L.",
       phone: "81 2208 4118",
-      wa: "https://wa.me/528122084118",
+      wa: "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.0!2d-100.25!3d25.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQwJzQ4LjAiTiAxMDDCsDE1JzAwLjAiVw!5e0!3m2!1ses!2smx!4v1",
     },
     {
       name: "Suc. Contry La Silla",
       address: "P.º de las Américas 2538, Contry La Silla 1er Sector, 67173 Guadalupe, N.L.",
       phone: "81 2034 8679",
-      wa: "https://wa.me/528120348679",
+      wa: "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.0!2d-100.24!3d25.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM5JzAwLjAiTiAxMDDCsDE0JzI0LjAiVw!5e0!3m2!1ses!2smx!4v1",
     },
   ];
@@ -51,7 +51,7 @@ const Contacto = () => {
               Contáctanos
             </h1>
             <p className="text-lg md:text-xl text-white/85 font-light max-w-2xl mx-auto">
-              Estamos para ayudarte. Escríbenos por WhatsApp o visítanos en cualquiera de nuestras sucursales.
+              Estamos para ayudarte. Reserva tu clase en línea o visítanos en cualquiera de nuestras sucursales.
             </p>
           </ScrollReveal>
         </div>

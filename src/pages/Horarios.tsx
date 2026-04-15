@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import SectionDivider from "@/components/SectionDivider";
 
 const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
-const WHATSAPP_CS = "https://wa.me/528120348679?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20horarios%20disponibles%20%F0%9F%8C%B8";
+const BOOKING_URL_CS = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
 
 const Horarios = () => {
   useEffect(() => {
@@ -84,7 +84,7 @@ const Horarios = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               { name: "Suc. Linda Vista", address: "Ave. Lindavista 215L7, Lindavista, 67123 Guadalupe, N.L.", phone: "81 2208 4118", wa: BOOKING_URL },
-              { name: "Suc. Contry La Silla", address: "P.º de las Américas 2538, Contry La Silla, 67173 Guadalupe, N.L.", phone: "81 2034 8679", wa: WHATSAPP_CS },
+              { name: "Suc. Contry La Silla", address: "P.º de las Américas 2538, Contry La Silla, 67173 Guadalupe, N.L.", phone: "81 2034 8679", wa: BOOKING_URL_CS },
             ].map((loc, i) => (
               <ScrollReveal key={loc.name} delay={i * 150}>
                 <div className="bg-card rounded-2xl p-8 shadow-sm border border-border/50">

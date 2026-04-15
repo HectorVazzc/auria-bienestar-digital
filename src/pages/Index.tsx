@@ -264,7 +264,7 @@ const Index = () => {
                 name: "Suc. Contry La Silla",
                 address: "P.º de las Américas 2538, Contry La Silla 1er Sector, 67173 Guadalupe, N.L., México",
                 phone: "81 2034 8679",
-                wa: WHATSAPP_CS,
+                wa: BOOKING_URL,
               },
             ].map((loc, i) => (
               <ScrollReveal key={loc.name} delay={i * 150}>
@@ -278,9 +278,9 @@ const Index = () => {
                     <MessageCircle size={16} className="shrink-0 text-primary" />
                     {loc.phone}
                   </p>
-                  <a href={loc.wa} target="_blank" rel="noopener noreferrer">
+                  <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                     <Button className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
-                      Enviar WhatsApp
+                      Reserva ahora
                     </Button>
                   </a>
                 </div>
