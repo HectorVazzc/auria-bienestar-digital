@@ -13,7 +13,7 @@ import cutoutMat from "@/assets/cutout-mat.png";
 import cutoutCommunity from "@/assets/cutout-community.png";
 import cutoutLifestyle from "@/assets/cutout-lifestyle.png";
 
-const WHATSAPP_LV = "https://wa.me/528122084118?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
+const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
 const WHATSAPP_CS = "https://wa.me/528120348679?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
 
 const Index = () => {
@@ -54,9 +54,9 @@ const Index = () => {
             </ScrollReveal>
             <ScrollReveal delay={400}>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-white text-auria-plum hover:bg-white/90 rounded-full px-8 text-base font-semibold shadow-lg">
-                    Agenda tu clase
+                    Reserva ahora
                   </Button>
                 </a>
                 <a href="#clases">
@@ -128,9 +128,9 @@ const Index = () => {
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Fortalece, alarga y tonifica tu cuerpo con la máquina reformer. Clases guiadas en grupos reducidos para una atención personalizada.
                 </p>
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    Reserva por WhatsApp
+                    Reserva ahora
                   </Button>
                 </a>
               </div>
@@ -144,9 +144,9 @@ const Index = () => {
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Conecta con tu cuerpo a través de ejercicios en tapete que mejoran tu postura, flexibilidad y fuerza desde la base.
                 </p>
-                <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                    Reserva por WhatsApp
+                    Reserva ahora
                   </Button>
                 </a>
               </div>
@@ -258,13 +258,13 @@ const Index = () => {
                 name: "Suc. Linda Vista",
                 address: "Ave. Lindavista 215L7, Lindavista, Linda Vista, 67123 Guadalupe, N.L., México",
                 phone: "81 2208 4118",
-                wa: WHATSAPP_LV,
+                wa: BOOKING_URL,
               },
               {
                 name: "Suc. Contry La Silla",
                 address: "P.º de las Américas 2538, Contry La Silla 1er Sector, 67173 Guadalupe, N.L., México",
                 phone: "81 2034 8679",
-                wa: WHATSAPP_CS,
+                wa: BOOKING_URL,
               },
             ].map((loc, i) => (
               <ScrollReveal key={loc.name} delay={i * 150}>
@@ -278,9 +278,9 @@ const Index = () => {
                     <MessageCircle size={16} className="shrink-0 text-primary" />
                     {loc.phone}
                   </p>
-                  <a href={loc.wa} target="_blank" rel="noopener noreferrer">
+                  <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                     <Button className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
-                      Enviar WhatsApp
+                      Reserva ahora
                     </Button>
                   </a>
                 </div>

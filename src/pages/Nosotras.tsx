@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import ScrollReveal from "@/components/ScrollReveal";
 import SectionDivider from "@/components/SectionDivider";
 
-const WHATSAPP_LV = "https://wa.me/528122084118?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
+const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
 
 const Nosotras = () => {
   useEffect(() => {
@@ -108,9 +108,9 @@ const Nosotras = () => {
             <p className="text-lg text-white/85 mb-10">
               Tu transformación comienza con una clase.
             </p>
-            <a href={WHATSAPP_LV} target="_blank" rel="noopener noreferrer">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-white text-auria-plum hover:bg-white/90 rounded-full px-8 font-semibold shadow-lg">
-                Agenda tu primera clase
+                Reserva ahora
               </Button>
             </a>
           </ScrollReveal>

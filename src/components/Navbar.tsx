@@ -12,7 +12,7 @@ const navLinks = [
   { to: "/contacto", label: "Contacto" },
 ];
 
-const WHATSAPP_URL = "https://wa.me/528122084118?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20clase%20en%20AURIA%20%F0%9F%8C%B8";
+const BOOKING_URL = "https://auria-pilates-reformer-clase-prueba.crosshero.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnX3EWdnKj9R1eJisdmYg-eX2e7r-UGW4yYEhoTuYtx50mRwm5oE0xqan9EWg_aem_2ArqIo-M79u_GXOa2gZ-bw";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,9 +39,9 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 text-sm font-medium">
-                Agenda tu clase
+                Reserva ahora
               </Button>
             </a>
           </div>
@@ -74,9 +74,9 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="mt-2">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="mt-2">
               <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full text-sm font-medium">
-                Agenda tu clase
+                Reserva ahora
               </Button>
             </a>
           </div>
