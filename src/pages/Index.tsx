@@ -37,7 +37,7 @@ const Index = () => {
                   </Button>
                 </a>
                 <a href="#clases">
-                  <Button size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 rounded-full px-8 text-base font-medium">
+                  <Button size="lg" className="bg-auria-plum text-white hover:bg-auria-plum/85 rounded-full px-8 text-base font-semibold shadow-lg border-0">
                     Conoce nuestras clases
                   </Button>
                 </a>
