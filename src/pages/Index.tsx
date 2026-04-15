@@ -34,9 +34,9 @@ const Index = () => {
         <Sparkle size={30} color="rgba(255,255,255,0.25)" className="absolute top-[60%] left-[5%] animate-pulse [animation-delay:2s]" />
 
         {/* Hero cutout */}
-        <div className="absolute bottom-10 right-[5%] hidden lg:block pointer-events-none z-[1]">
+        <div className="absolute bottom-10 right-[3%] sm:right-[5%] pointer-events-none z-[1]">
           <ScrollReveal delay={600}>
-            <MagazineCutout src={cutoutReformer} alt="Pilates Reformer" className="w-56 xl:w-64" rotation={3} />
+            <MagazineCutout src={cutoutReformer} alt="Pilates Reformer" className="w-28 sm:w-40 md:w-48 lg:w-56 xl:w-64" rotation={3} />
           </ScrollReveal>
         </div>
 
@@ -78,9 +78,9 @@ const Index = () => {
         <Sparkle size={45} color="hsla(12, 85%, 72%, 0.3)" className="absolute bottom-16 left-[8%] animate-pulse [animation-delay:1.2s]" />
         
         {/* Intro cutout */}
-        <div className="absolute -bottom-4 left-[3%] hidden md:block pointer-events-none">
+        <div className="absolute -bottom-4 left-[2%] sm:left-[3%] pointer-events-none">
           <ScrollReveal delay={300}>
-            <MagazineCutout src={cutoutMeditation} alt="Meditación y bienestar" className="w-40 lg:w-48" rotation={-4} />
+            <MagazineCutout src={cutoutMeditation} alt="Meditación y bienestar" className="w-24 sm:w-32 md:w-40 lg:w-48" rotation={-4} />
           </ScrollReveal>
         </div>
 
@@ -106,9 +106,9 @@ const Index = () => {
         <Sparkle size={80} color="hsla(175, 50%, 60%, 0.3)" className="absolute bottom-24 right-[6%] animate-pulse [animation-delay:1.8s]" />
         
         {/* Clases cutout */}
-        <div className="absolute top-10 right-[2%] hidden lg:block pointer-events-none">
+        <div className="absolute top-10 right-[2%] pointer-events-none">
           <ScrollReveal delay={400}>
-            <MagazineCutout src={cutoutMachine} alt="Cama de Pilates Reformer" className="w-48 xl:w-56" rotation={5} />
+            <MagazineCutout src={cutoutMachine} alt="Cama de Pilates Reformer" className="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56" rotation={5} />
           </ScrollReveal>
         </div>
 
@@ -163,9 +163,9 @@ const Index = () => {
         <Sparkle size={40} color="hsla(340, 65%, 75%, 0.35)" className="absolute bottom-20 left-[15%] animate-pulse [animation-delay:2.2s]" />
         
         {/* Por qué cutout */}
-        <div className="absolute bottom-6 right-[3%] hidden lg:block pointer-events-none">
+        <div className="absolute bottom-6 right-[2%] sm:right-[3%] pointer-events-none">
           <ScrollReveal delay={300}>
-            <MagazineCutout src={cutoutMat} alt="Mujer haciendo stretching" className="w-44 xl:w-52" rotation={-3} />
+            <MagazineCutout src={cutoutMat} alt="Mujer haciendo stretching" className="w-24 sm:w-32 md:w-36 lg:w-44 xl:w-52" rotation={-3} />
           </ScrollReveal>
         </div>
 
@@ -204,9 +204,9 @@ const Index = () => {
         <Sparkle size={50} color="hsla(280, 50%, 75%, 0.3)" className="absolute bottom-20 right-[10%] animate-pulse [animation-delay:1.4s]" />
 
         {/* Testimonios cutout */}
-        <div className="absolute top-8 left-[2%] hidden lg:block pointer-events-none">
+        <div className="absolute top-8 left-[1%] sm:left-[2%] pointer-events-none">
           <ScrollReveal delay={400}>
-            <MagazineCutout src={cutoutCommunity} alt="Comunidad AURIA" className="w-48 xl:w-56" rotation={-5} />
+            <MagazineCutout src={cutoutCommunity} alt="Comunidad AURIA" className="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56" rotation={-5} />
           </ScrollReveal>
         </div>
 
@@ -240,9 +240,9 @@ const Index = () => {
         <Sparkle size={45} color="hsla(12, 85%, 68%, 0.3)" className="absolute bottom-14 right-[14%] animate-pulse [animation-delay:1.7s]" />
 
         {/* Ubicaciones cutout */}
-        <div className="absolute bottom-8 left-[2%] hidden lg:block pointer-events-none">
+        <div className="absolute bottom-8 left-[1%] sm:left-[2%] pointer-events-none">
           <ScrollReveal delay={300}>
-            <MagazineCutout src={cutoutLifestyle} alt="Estilo de vida wellness" className="w-40 xl:w-48" rotation={4} />
+            <MagazineCutout src={cutoutLifestyle} alt="Estilo de vida wellness" className="w-24 sm:w-32 md:w-36 lg:w-40 xl:w-48" rotation={4} />
           </ScrollReveal>
         </div>
 
