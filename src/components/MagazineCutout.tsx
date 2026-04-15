@@ -11,14 +11,18 @@ const MagazineCutout = ({ src, alt, className = "", rotation = 0 }: MagazineCuto
       className={`inline-block ${className}`}
       style={{ transform: `rotate(${rotation}deg)` }}
     >
-      <div className="bg-white p-2 md:p-3 shadow-xl rounded-sm">
+      <div className="relative">
         <img
           src={src}
           alt={alt}
           loading="lazy"
           width={400}
           height={400}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain drop-shadow-xl"
+          style={{
+            filter: "drop-shadow(0 4px 20px rgba(0,0,0,0.15))",
+            WebkitFilter: "drop-shadow(0 4px 20px rgba(0,0,0,0.15))",
+          }}
         />
       </div>
     </div>
